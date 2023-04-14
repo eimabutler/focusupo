@@ -1,0 +1,76 @@
+body {
+	font-family: monospace;
+	font-size: 2.6vw;
+	color: white;
+	background-color: #364E45;
+}
+
+
+/* Style side nav */
+.sidenav {
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	margin-left: -15vw;
+	background-color: #171517;
+	overflow: hidden;
+	opacity: 0.85;
+}
+
+/* Side nav table */
+.sidenav table {
+	height: 1vw;
+	border-collapse: collapse;
+	margin-right: 0vw;
+	padding-right: 0px;
+	border: #171517;
+	border-style: solid;
+	border-left-width: 42.5vw;
+	border-right-width: 100vw;
+}
+
+/* Side nav links */
+.sidenav a {
+	display: inline;
+	color: white;
+	padding: .5vw;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+	/* background-color: #ddd; */
+	color: #729EA1;
+}
+
+/* Style current page link */
+.sidenav #current{
+	background-color: #B27092;
+}
+
+
+/* Style content */
+.content { 
+	position: fixed;
+	overflow: scroll;
+}
+
+.content h2{
+	margin-top: 3.2vw;
+	margin-left: 1vw;
+	margin-bottom: 1vw;
+}
+
+/* Style annotations/subtitles */
+.content #sub {
+	font-size: 1.7vw;
+	margin-left: 2vw;
+	margin-bottom: 3.5vw;
+}
+
+
+/* Style p5js canvas */
+main {
+	padding-top: 12.3vw;
+	text-align: center;
+}
