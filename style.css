@@ -58,7 +58,7 @@ body {
 /* style content */
 .content { 
 	position: fixed;
-	overflow: scroll;
+	/* overflow: scroll; */
 }
 .content h2{
 	margin-top: 2vw;
