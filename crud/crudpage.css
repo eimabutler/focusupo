@@ -1,0 +1,25 @@
+/* album cover styling */
+.recent img {
+	text-align: center;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 9.5vw; 
+	width: 29%;
+}
+.recent p {
+	text-align: center;
+	font-size: 2vw;
+	display: block;
+	margin-left: auto; margin-right: auto;
+	margin-top: 0.5vw;
+}
+.recent a {
+	color: inherit;
+	text-decoration: none;
+	animation-name: fadein;
+	opacity: 0;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-duration: 1.5s;
+}
