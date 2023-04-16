@@ -19,7 +19,8 @@
 	text-decoration: none;
 	animation-name: fadein;
 	opacity: 0;
-	animation-delay: 2s;
+	animation-delay: 2ccs;
 	animation-fill-mode: forwards;
 	animation-duration: 1.5s;
 }
+
