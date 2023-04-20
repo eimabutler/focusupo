@@ -1,6 +1,19 @@
 /* defaults */ 
+@font-face {
+	font-family: Noto Sans Mono;
+	src: url('./assets/fonts/Noto_Sans_Mono/static/NotoSansMono/NotoSansMono-Regular.ttf');
+	font-weight: 400;
+	line-height: normal;
+}
+@font-face {
+	font-family: Noto Sans Mono Bold;
+	src: url('./assets/fonts/Noto_Sans_Mono/static/NotoSansMono/NotoSansMono-Bold.ttf');
+	font-weight: 700;
+	line-height: normal;
+}
+
 body {
-	font-family: monospace;
+	font-family: Noto Sans Mono;
 	font-size: 2.6vw;
 	color: white;
 	background-color: #364E45;
@@ -60,6 +73,7 @@ body {
 	position: relative;
 }
 .header h2{
+	font-family: Noto Sans Mono Bold;
 	margin-top: 2vw;
 	margin-left: 1vw;
 	margin-bottom: 1vw;
