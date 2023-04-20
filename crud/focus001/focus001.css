@@ -2,7 +2,7 @@
 .release-nfo {
 	animation-name: fadein;
 	opacity: 0;
-	animation-delay: 1.9s;
+	/* animation-delay: 1.9s; */
 	animation-fill-mode: forwards;
 	animation-duration: 1.5s;
 }
@@ -11,8 +11,9 @@
 	display: block;
 	margin-left: auto; 
 	margin-right: auto;
-	/* padding-top: 9.5vw;  */
-	margin-top: -6vw;
+	/* padding-top: 8.8vw;  */
+	padding-top: 3vw; 
+	/* margin-top: 3vw; */
 	width: 29%;
 }
 .release-nfo p {

@@ -55,12 +55,11 @@ body {
 }
 
 
-/* style content */
-.content { 
-	position: fixed;
-	/* overflow: scroll; */
+/* style header div */
+.header { 
+	position: relative;
 }
-.content h2{
+.header h2{
 	margin-top: 2vw;
 	margin-left: 1vw;
 	margin-bottom: 1vw;
@@ -68,7 +67,7 @@ body {
 	animation-duration: 2s;
 }
 /* style annotations/subtitles */
-.content #sub {
+.header #sub {
 	font-size: 1.7vw;
 	margin-left: 2vw;
 	margin-bottom: 3.5vw;
@@ -78,7 +77,11 @@ body {
 	animation-fill-mode: forwards;
 	animation-duration: 1.5s;
 }
-.content p {
+
+/* "elevator pitch" styling */
+.elevator p {
+	margin-left: 10vw;
+	margin-right: 10vw;
 	animation-name: fadein;
 	opacity: 0;
 	animation-delay: 2s;
