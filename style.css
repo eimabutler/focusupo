@@ -31,6 +31,7 @@ body {
 
 /* style side nav */
 .sidenav {
+	/* display: none; */
 	position: fixed;
 	z-index: 1;
 	bottom: 0;
@@ -63,7 +64,7 @@ body {
 /* style current page link */
 .sidenav #current{
 	animation-name: fadecurrent;
-	animation-duration: 1s;
+	animation-duration: 0.5s;
 	animation-fill-mode: forwards;
 }
 
@@ -101,4 +102,23 @@ body {
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
 	animation-duration: 1.5s;
+}
+
+/* style footer div */
+.footer {
+	font-size: 1.2vw;
+	padding-top: -3vw;
+	margin-bottom: 5vw;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+}
+.footer table {
+	height: 1vw;
+	border-collapse: collapse;
+}
+.footer a {
+	color: white;
+	padding: .5vw;
+	/* text-decoration: none; */
 }
