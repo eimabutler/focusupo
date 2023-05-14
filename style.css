@@ -112,10 +112,7 @@ body {
 	bottom: 0px;
 	text-align: center;
 	width: 100%;
-}
-.footer table {
-	height: 1vw;
-	border-collapse: collapse;
+	margin-left: -1ch;
 }
 .footer a {
 	color: white;
